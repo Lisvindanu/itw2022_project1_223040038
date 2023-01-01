@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #080808;
+  background: linear-gradient(to right, #a3c9e2, #9618f7);
   color: #fff;
 }
 html {
@@ -16,7 +16,7 @@ html {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(../assets/img/Danu.png);
+  background-image: url(../assets/img/Danu-removebg.png);
   background-size: cover;
   background-position: center;
 }
@@ -53,7 +53,7 @@ nav ul li a::after {
   content: "";
   width: 0%;
   height: 3px;
-  background: #ff004f;
+  background: #7409c6;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -124,7 +124,7 @@ nav ul li a:hover:after {
 
 #about {
   padding: 80px 0;
-  color: #ababaa;
+  color: #ffffff;
 }
 .about-col-2 span {
   color: aqua;
@@ -197,8 +197,8 @@ nav ul li a:hover:after {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: rgba(31, 29, 28, 0.9);
-  color: rgba(118, 173, 193, 0.993);
+  background: linear-gradient(to right, rgb(91, 177, 243), rgb(152, 72, 223));
+  color: rgba(255, 255, 255, 0.993);
   border-radius: 10px;
 }
 
@@ -219,7 +219,7 @@ nav ul li a:hover:after {
 }
 
 .hobbies-list div {
-  background: #262626;
+  background: linear-gradient(to right, #a3c9e2, #9618f7);
   padding: 40px;
   font-size: 13px;
   font-weight: 300;
@@ -247,7 +247,7 @@ nav ul li a:hover:after {
 }
 
 .hobbies-list div:hover {
-  background: #ff004f;
+  background: #945ad3;
   transform: translateY(-5px);
 }
 
@@ -279,7 +279,7 @@ nav ul li a:hover:after {
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff005165);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #c10bef65);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -301,7 +301,7 @@ nav ul li a:hover:after {
 
 .layer a {
   margin-top: 20px;
-  color: #ff004f;
+  color: #8934d3;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -336,7 +336,7 @@ nav ul li a:hover:after {
 
 .sosmed-icon a {
   margin-top: 20px;
-  color: #ababab;
+  color: #da4242;
   margin-right: 20px;
   font-size: 25px;
   display: inline-block;
@@ -344,7 +344,7 @@ nav ul li a:hover:after {
 }
 
 .sosmed-icon a:hover {
-  color: aqua;
+  color: #000000;
   transform: translateY(-10px);
 }
 
@@ -393,7 +393,7 @@ form textarea {
   width: 100%;
   text-align: center;
   padding: 25px 0;
-  background: #262626;
+  background: #ffffff78;
   margin-top: 10px;
   font-weight: 300;
 }
@@ -405,7 +405,7 @@ nav .uil {
 
 @media (max-width: 600px) {
   #header {
-    background: url(../assets/img/smolldanu.png);
+    background: url(../assets/img/smolldanu-removebg.png);
     background-size: cover;
   }
   .header-text {
@@ -423,7 +423,7 @@ nav .uil {
   }
 
   nav ul {
-    background: aqua;
+    background: #945ad3;
     position: fixed;
     top: 0;
     right: -200px;
