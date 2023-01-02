@@ -98,7 +98,7 @@ nav ul li a:hover:after {
 .btn {
   display: inline-block;
 
-  background: rgb(0, 0, 0);
+  background: rgba(14, 219, 255, 0.824);
   border: 1px solid transparent;
   padding: 12px 30px;
   line-height: 1.4;
@@ -117,7 +117,7 @@ nav ul li a:hover:after {
 
 .btn a {
   text-decoration: none;
-  color: aqua;
+  color: rgb(253, 253, 253);
 }
 
 /* =================== About ================== */
@@ -147,6 +147,10 @@ nav ul li a:hover:after {
 
 .about-col-2 {
   flex-basis: 60%;
+}
+
+.about-col-2 p {
+  font-size: 30px;
 }
 
 .NamaJudulAbout {
@@ -183,6 +187,48 @@ nav ul li a:hover:after {
   width: 50%;
 }
 
+/* span di nama disamping about */
+
+/* apeye = h2 */
+.apeye {
+  font-size: 90px;
+}
+
+#l {
+  color: rgb(91, 177, 243);
+}
+#i {
+  color: rgb(152, 72, 223);
+}
+
+#s {
+  color: rgb(91, 177, 243);
+}
+
+#v {
+  color: rgb(152, 72, 223);
+}
+
+#i2 {
+  color: rgb(91, 177, 243);
+}
+
+#n {
+  color: rgb(152, 72, 223);
+}
+
+#d {
+  color: rgb(91, 177, 243);
+}
+
+#a {
+  color: rgb(152, 72, 223);
+}
+
+#n {
+  color: rgb(91, 177, 243);
+}
+/* span end */
 /* Education */
 #education {
   padding: 30px 0;
@@ -415,6 +461,10 @@ nav .uil {
 
   .header-text h1 {
     font-size: 30px;
+  }
+
+  .about-col-2 p {
+    font-size: 23px;
   }
 
   nav .uil {
