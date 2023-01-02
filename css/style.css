@@ -83,17 +83,6 @@ nav ul li a:hover:after {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  /* display: inline-block;
-  color: white;
-  background: #4d6199;
-  border: 1px solid transparent;
-  padding: 12px 30px;
-  line-height: 1.4;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 30px;
-  text-transform: uppercase;
-  transition: all 0.55s ease; */
 }
 
 .btn {
@@ -162,34 +151,6 @@ nav ul li a:hover:after {
   color: #fff;
 }
 
-.tab-tittles {
-  display: flex;
-  margin: 20px 0 40px;
-  color: #fff;
-}
-
-.tab-links {
-  margin-right: 50px;
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer;
-  position: relative;
-}
-
-.tab-links::after {
-  content: "";
-  width: 0;
-  height: 3px;
-  background: #ff004f;
-  position: absolute;
-  left: 0;
-  bottom: -8px;
-  transform: 0.5s;
-}
-.tab-links.active-link::after {
-  width: 50%;
-}
-
 /* span di nama disamping about */
 
 /* apeye = h2 */
@@ -231,7 +192,7 @@ nav ul li a:hover:after {
 #n {
   color: rgb(199, 61, 250);
 }
-/* span end */
+/* span end about end*/
 /* Education */
 #education {
   padding: 30px 0;
