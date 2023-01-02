@@ -13,6 +13,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* --------------- header ---------------- */
 #header {
   width: 100%;
   height: 100vh;
@@ -120,6 +121,8 @@ nav ul li a:hover:after {
   color: rgb(253, 253, 253);
 }
 
+/* ------------------ header end ----------------------- */
+
 /* =================== About ================== */
 
 #about {
@@ -195,38 +198,38 @@ nav ul li a:hover:after {
 }
 
 #l {
-  color: rgb(91, 177, 243);
+  color: rgb(255, 255, 255);
 }
 #i {
-  color: rgb(152, 72, 223);
+  color: aqua;
 }
 
 #s {
-  color: rgb(91, 177, 243);
+  color: rgb(194, 61, 250);
 }
 
 #v {
-  color: rgb(152, 72, 223);
+  color: rgb(255, 255, 255);
 }
 
 #i2 {
-  color: rgb(91, 177, 243);
+  color: aqua;
 }
 
 #n {
-  color: rgb(152, 72, 223);
+  color: rgb(194, 61, 250);
 }
 
 #d {
-  color: rgb(91, 177, 243);
+  color: rgb(253, 253, 253);
 }
 
 #a {
-  color: rgb(152, 72, 223);
+  color: aqua;
 }
 
 #n {
-  color: rgb(91, 177, 243);
+  color: rgb(199, 61, 250);
 }
 /* span end */
 /* Education */
